@@ -1,0 +1,188 @@
+@media (max-width:870px) {
+    
+    .navbar{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 200;
+        background-color: white;
+        width: 100%;
+        
+    }
+
+    .trousers{
+        background: url(/trending_img/trousers.webp);
+        background-size: cover;
+        width: 30vmax;
+        height: 50vmax;
+        max-height: 500px;
+        border-radius: 12px;
+        /* min-width: 300px; */
+    
+        
+        
+    }
+    
+    .cargos{
+        background: url(/trending_img/cargos.webp);
+        background-size: cover;
+        width: 30vmax;
+        /* min-width: 300px; */
+        height: 50vmax;
+        max-height: 500px;
+        border-radius: 12px;
+        
+    }
+    
+    .overshirts{
+        background: url(/trending_img/overshirts.webp);
+        background-size: cover  ;
+        width: 30vmax;
+        /* min-width: 300px; */
+        height: 50vmax;
+        max-height: 500px;
+        border-radius: 12px;
+        
+    }
+    
+    .solidshirts{
+        background: url(/trending_img/solidshirts.webp);
+        background-size: cover;
+        width: 30vmax;
+        height: 50vmax;
+        max-height: 500px;
+        /* min-width: 300px; */
+        border-radius: 12px;
+        
+        
+    }
+    
+    .shadow{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.244);
+        border-radius: 12px;
+        font-size: 1.75rem;
+        color: white;
+        padding: 1rem;
+    }
+    
+
+
+}
+
+@media (max-width:743px) {
+    .trousers{
+        background: url(/trending_img/trousers.webp);
+        background-size: cover;
+        width: 40vmax;
+        height: 60vmax;
+        max-height: 6000px;
+        border-radius: 12px;
+        /* min-width: 300px; */
+    
+        
+        
+    }
+    
+    .cargos{
+        background: url(/trending_img/cargos.webp);
+        background-size: cover;
+        width: 40vmax;
+        height: 60vmax;
+        max-height: 6000px;
+        border-radius: 12px;
+        
+    }
+    
+    .overshirts{
+        background: url(/trending_img/overshirts.webp);
+        background-size: cover  ;
+        width: 40vmax;
+        height: 60vmax;
+        max-height: 6000px;
+        border-radius: 12px;
+        
+    }
+    
+    .solidshirts{
+        background: url(/trending_img/solidshirts.webp);
+        background-size: cover;
+        width: 40vmax;
+        height: 60vmax;
+        max-height: 6000px;
+        /* min-width: 300px; */
+        border-radius: 12px;
+        
+        
+    }
+    
+    .shadow{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.244);
+        border-radius: 12px;
+        font-size: 1.75rem;
+        color: white;
+        padding: 1rem;
+    }
+    
+    
+}
+
+@media (max-width:560px) {
+
+    .navbar{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 200;
+        background-color: white;
+        width: 100%;
+        
+    }
+ #icon1{
+    display: none;
+ }
+
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.logo i {
+    font-size: 2rem !important;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.navbar i {
+    font-size: 1rem;
+}
+
+.pre-navbar p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    word-spacing: .3rem;
+    font-size: .75rem;
+}
+
+}
