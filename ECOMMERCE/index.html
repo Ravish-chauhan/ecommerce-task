@@ -10,6 +10,7 @@
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   
 />
+<script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
@@ -17,19 +18,19 @@
 <div class="pre-navbar">
     <p>GET 10% OFF ON YOUR FIRST PURCHASE</p> 
 </div>
-<div class="navbar">
-          <i id="icon1" class="fa-solid fa-bars"></i>
+<nav class="navbar">
+          <button><i id="icon1" class="fa-solid fa-bars"></i></button>
       <div class="logo"> 
           <i class="fa-brands fa-centos"></i>
           <h1>Sui<span>Dhaga</span></h1>
       </div>
       <div class="nav-icon">
-          <i class="fa-regular fa-user"></i>
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <button><i class="fa-regular fa-user"></i></button>
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button><i class="fa-solid fa-cart-shopping"></i></button>
       </div>
 
-</div>
+</nav>
 
 
 <div class="hero-section">
@@ -37,16 +38,16 @@
 </div>
 
 <h2>TRENDING NOW🔥</h2>
-<div class="trending">
+<div class="trending text-white text-center">
     
-    <a href="" class="trousers zoom-animation"><div class="shadow "><span>TROUSERS</span></div></a>
-    <a href="" class="cargos zoom-animation"><div class="shadow"><span>CARGOS</span></div></a>
-    <a href="" class="overshirts zoom-animation"><div class="shadow"><span>OVERSHIRTS</span></div></a>
-    <a href="" class="solidshirts zoom-animation"><div class="shadow"><span>SOLIDSHIRTS</span></div></a>
+    <a  href="" class="trousers zoom-animation transition-all flex items-end bg-opacity-30 bg-black text-3xl "><div class=" mb-3 w-full"><h1>TROUSERS</h1></div></a>
+    <a  href="" class="cargos zoom-animation transition-all flex items-end bg-opacity-30 bg-black text-3xl "><div class="mb-3 w-full"><h1>CARGOS</h1></div></a>
+    <a  href="" class="overshirts zoom-animation transition-all flex items-end bg-opacity-30 bg-black text-3xl "><div class="mb-3 w-full"><h1>OVERSHIRTS</h1></div></a>
+    <a  href="" class="solidshirts zoom-animation transition-all flex items-end bg-opacity-30 bg-black text-3xl "><div class="mb-3 w-full"><h1>SOLIDSHIRTS</h1></div></a>
 </div>
     
-<div class="banner">
-    <img src="" srcset="//www.snitch.co.in/cdn/shop/files/App_Download_WebBanner_1920x1080_1_1400x.jpg?v=1728109351"alt="">
+<div class=" h-[230px] sm:h-[300px] md:h-[400px] lg:min-h-[600px] bg-[url(https://www.snitch.co.in/cdn/shop/files/App_Download_WebBanner_1920x1080_1_1400x.jpg?v=1728109351)] bg-center bg-cover">
+    <!-- <img src="" class="min-h-96 w-full" srcset="//www.snitch.co.in/cdn/shop/files/App_Download_WebBanner_1920x1080_1_1400x.jpg?v=1728109351"alt="">  -->
 </div>
 
 <h2>NEW ARRIVAL ☀️</h2>
@@ -54,7 +55,7 @@
 
 <div class="container swiper">
     <div class="card-wrapper">
-        <ul class="card-list swiper-wrapper">
+        <ul class="card-list swiper-wrapper ">
 
             <li class="card-item swiper-slide">
                 <img src="/cloths/c1.webp" alt="">
@@ -321,14 +322,14 @@
 
 
 <div class="end">
-    <div class="end-1">
+    <div class="end-1 flex justify-center gap-y-4 flex-wrap">
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         <a href="#"><i class="fa-brands fa-youtube"></i></a>
     </div>
-    <div class="end-2">
+    <div class="end-2 flex justify-center gap-4 flex-wrap">
         <a href="">Privacy Policy</a>
         <a href="">Terms of Service</a>
         <a href="">Code of Conduct</a>
