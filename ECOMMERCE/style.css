@@ -13,6 +13,11 @@ html,body{
     scroll-behavior: smooth;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 
 .pre-navbar{
     color:  white;
@@ -182,6 +187,7 @@ h2{
 .card-item{
     text-align: start;
     padding: 1rem;
+    border: 1px solid black;
 }
 
 .card-wrapper{
@@ -207,6 +213,7 @@ h2{
     background-color: black;
     color: white;
     border: 1px solid white;
+    transition: all .3s ease;
 }
 
 li:hover{
